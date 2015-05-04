@@ -20,10 +20,10 @@ while(my $choice = <STDIN>){
             list_word(0xa3e1,0xa440);
         }
         when (/d/i) {
-            list_word(0xa440,0xc6a1);
+            list_word(0xc6a1,0xc940);
         }
         when (/e/i) {
-            list_word(0xc6a1,0xc940);
+            list_word(0xa440,0xc6a1);
         }
         when (/f/i) {
             list_word(0xc940,0xf9d6);
